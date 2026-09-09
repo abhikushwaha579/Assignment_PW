@@ -1,0 +1,19 @@
+// Create an array of frontend technologies and use forEach() to display every technology.
+
+// let frontendtechnologies = ["HTML", "CSS", "JavaScript"] 
+// frontendtechnologies.forEach((frontendtechnologies) => {console.log(frontendtechnologies);} )
+
+//Using the same array of frontend technologies, use map() to create a new array where every technology 
+//is converted to uppercase. 
+
+let frontendtech =["html", "css", "javascript"]
+
+let   uppercaseFrontend = frontendtech.map(frontendtech => frontendtech.toUpperCase())
+console.log(uppercaseFrontend);
+
+//Create an array of names and use map() to add the text "User: " before every name. Display the new 
+// array. 
+
+let names =  ["Rahul", "Priya", "Aman"] 
+let username = names.map(user =>{return "User " +  user} )
+console.log(username);
